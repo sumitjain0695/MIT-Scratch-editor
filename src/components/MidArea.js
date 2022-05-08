@@ -113,7 +113,7 @@ function MidArea({ area_list, add_list, event_values }) {
         <div>
           <Button
             variant="contained"
-            color="success"
+            color="primary"
             className={classes.button}
             startIcon={<AddIcon />}
             onClick={() => add_list()}
